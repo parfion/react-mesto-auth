@@ -1,4 +1,4 @@
-const { REACT_APP_API_URL } = process.env;
+const REACT_APP_API_URL = 'https://auth.nomoreparties.co';
 
 const checkResponse = (res) => {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);

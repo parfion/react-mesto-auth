@@ -120,7 +120,7 @@ class Api {
 }
 
 const api = new Api({
-	baseUrl: REACT_APP_API_URL,
+	baseUrl: 'https://mesto.nomoreparties.co/v1/cohort-72',
 	headers: {
 	  'Content-Type': 'application/json'
 	}
